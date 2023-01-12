@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Projects({ project }) {
   const { projectImage, projectName, projectDesc, projectLink } = project;
@@ -13,13 +12,14 @@ function Projects({ project }) {
         <h2 className='card-title'>{projectName}</h2>
         <p>{projectDesc}</p>
         <div className='card-actions'>
-          <Link
-            to={projectLink}
+          <a
+            href={projectLink}
             target='_blank'
             className='btn btn-base-100 border-solid border-white text-primary'
+            rel='noreferrer'
           >
             Show Me
-          </Link>
+          </a>
         </div>
       </div>
     </div>

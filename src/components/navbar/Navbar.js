@@ -1,7 +1,15 @@
+/* eslint-disable no-undef */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import fileSaver from 'file-saver';
 
 function Navbar() {
+  const saveFile = () => {
+    fileSaver.saveAs(
+      process.env.PUBLIC_URL + '/assets/resume.pdf',
+      'Wildan Mauluddana - Resume.pdf',
+    );
+  };
   const menuItem = (
     <React.Fragment>
       <li>
@@ -82,7 +90,11 @@ function Navbar() {
         <ul className='menu menu-horizontal px-1'>{menuItem}</ul>
       </div>
       <div className='navbar-end'>
-        <Link className='btn text-secondary font-bold border-2 border-primary rounded'>
+        <Link
+          onClick={saveFile}
+          target='_blank'
+          className='btn text-secondary font-bold border-2 border-primary rounded'
+        >
           Download Resume
         </Link>
       </div>
