@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/wildan-portofolio-react/static/css/main.5e2bd63b.css",
-    "main.js": "/wildan-portofolio-react/static/js/main.2f5f9cb5.js",
+    "main.js": "/wildan-portofolio-react/static/js/main.b4cec3bc.js",
     "static/js/787.a8f047d1.chunk.js": "/wildan-portofolio-react/static/js/787.a8f047d1.chunk.js",
     "static/media/me.png": "/wildan-portofolio-react/static/media/me.945434829439fa12dd15.png",
     "index.html": "/wildan-portofolio-react/index.html",
     "main.5e2bd63b.css.map": "/wildan-portofolio-react/static/css/main.5e2bd63b.css.map",
-    "main.2f5f9cb5.js.map": "/wildan-portofolio-react/static/js/main.2f5f9cb5.js.map",
+    "main.b4cec3bc.js.map": "/wildan-portofolio-react/static/js/main.b4cec3bc.js.map",
     "787.a8f047d1.chunk.js.map": "/wildan-portofolio-react/static/js/787.a8f047d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e2bd63b.css",
-    "static/js/main.2f5f9cb5.js"
+    "static/js/main.b4cec3bc.js"
   ]
 }
